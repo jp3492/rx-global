@@ -4,6 +4,10 @@
   "description": "global state management by id-to-store approach",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jp3492/react-global-state-hook.git"
+  },
   "scripts": {
     "build": "tsc"
   },
