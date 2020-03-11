@@ -1,0 +1,19 @@
+{
+  "name": "react-global-state-hook",
+  "version": "1.0.2",
+  "description": "global state management by id-to-store approach",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc"
+  },
+  "author": "JP Marks",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^3.8.3"
+  },
+  "peerDependencies": {
+    "react": "^16.13.0",
+    "react-dom": "^16.13.0"
+  }
+}
