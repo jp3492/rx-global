@@ -1,12 +1,12 @@
 {
-  "name": "react-global-state-hook",
+  "name": "rx-global",
   "version": "1.0.2",
-  "description": "global state management by id-to-store approach",
+  "description": "Global state management for React. Global key-value approach. Set, use, get, update, subscribe, reset.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "repository": {
     "type": "git",
-    "url": "https://github.com/jp3492/react-global-state-hook.git"
+    "url": "https://github.com/jp3492/rx-global.git"
   },
   "scripts": {
     "build": "tsc"
