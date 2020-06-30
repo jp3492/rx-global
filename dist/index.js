@@ -33,6 +33,7 @@ var Store = /** @class */ (function () {
     return Store;
 }());
 var initializeState = function (id, value) {
+    console.log("INITIALIZING");
     stores[id] = new Store();
     stores[id].setInitialValue(value);
 };
@@ -63,7 +64,7 @@ exports.updateGlobalState = function (id, cb) {
     }
 };
 exports.subGlobalState = function (id, cb) {
-    stores[id].subscribe(cb);
+    stores[id].addSetter(cb);
 };
 exports.unsubGlobalState = function (id, cb) {
     stores[id].unsubscribe(cb);

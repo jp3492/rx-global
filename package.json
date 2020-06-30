@@ -1,6 +1,6 @@
 {
   "name": "rx-global",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Global state management for React. Global key-value approach. Set, use, get, update, subscribe, reset.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
